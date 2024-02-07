@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem .5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,5);
+    background-color: #fff;
+}
+
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(53, 165, 25) !important;
+}
+
+#navbarSupportedContent a{
+    display: flex;
+    color: #000000;
+    border-bottom: 2px solid transparent;
+    width: 5;
+    justify-content: space-around;
+    
+    
+}         
+
+.nav-item
+{
+    padding-left: 50px;
+}
+.fa-home{
+    margin:auto;
+}
+.fa-info{
+    margin: auto;
+}
+
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid rgb(10, 134, 31);
+}
+
+#navbarSupportedContent button{
+    background: #fff;
+    width: 5rem;
+    border-radius: 20px;
+    color: blue;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*****home****/
+
+#Home{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)), url(img/no16.jpg    );
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#Home h1{
+    font-size: 100px;
+    color: #ffffff;
+    letter-spacing: 3px;
+    border: #000000;
+}
+form{
+    width: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px    ;
+}
+
+
+
+
+
+/*****About*****/
+
+#About{
+    background: #fff;
+    color:  #f7e228d3;
+}
+#About h1{
+    font-weight: 800;
+    font-size: 55px;
+    color: #000000;
+}
+
+/***Product****/
+
+#product{
+    background:hsl(0, 100%, 99%);
+}
+#product h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+.card{
+    width: 300px;
+    height: 250x;
+    background: hsl(0, 9%, 69%) !important; 
+    border: none;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.753),inset 4px 4px 10px  rgb(85, 55, 55);
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+    transition: .2s;
+}
+.card:hover{
+    box-shadow: inset 4px 4px 10px  rgba(0, 0, 0, 0.3),inset -4px -4px 10px  rgb(236, 236, 236);
+    transition: 5s;
+
+}
+
+/***contact page***/
+
+#contact img{
+    height: 100%;
+    width: 85%;
+}
+.box{
+    width: 80% impot !important;
+    background: #fff;
+    margin-top: 10;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin: 10px 0px;
+}
+#contact textarea{
+    margin: 10px 0px;
+}
+/***login page**/
+
+#login{
+    background-image:url(img/no13.avif) ;
+    background-size: cover;
+    background-position: center;
+
+    .container{
+        margin:auto;
+        width: 60%;
+        position:sticky;
+    }
+    .card{
+        padding: 60px 40px 50px 40px;
+        background:#000000 !important;
+        border-radius: 5px;
+        box-shadow: none;
+        width: 50%;
+        height: 50%;
+    }
+    #name{
+        border:#fff;
+        background:none;
+        border-bottom: 1px solid #fff;
+        padding: 6%;
+        margin-bottom: 20px;
+        color: #ffffff;
+        
+    }
+    #button{
+
+        border-radius: 20px;
+        padding: 10px 20px ;
+        background: #1d3f16;
+        color: #fff;
+        margin-top: 20px;
+        border: none;
+        outline: none;
+       
+    }
+    #checked{
+        text-align: left;
+        
+    }
+    a{
+        font-size: 13px;
+    }
+
+}
+
