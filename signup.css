@@ -26,24 +26,41 @@ body{
     font-size: 25px;
     font-weight: 800;
     color: rgb(53, 165, 25) !important;
+    font-family:'Times New Roman', Times, serif;
 }
 
 #navbarSupportedContent a{
-    color: #000000;
+    display: flex;
+    color: #1098aa;
     border-bottom: 2px solid transparent;
     width: 5;
+    justify-content: space-around;
+    
     
 }         
 
+.nav-item
+{
+    padding-left: 50px;
+}
+.fa-home{
+    margin:auto;
+}
+.fa-info{
+    margin: auto;
+    color: #000000;
+}
+
 #navbarSupportedContent a:hover{
-    border-bottom: 2px solid rgb(17, 17, 17);
+    border-bottom: 2px solid rgb(10, 134, 31);
+
 }
 
 #navbarSupportedContent button{
     background: #fff;
     width: 5rem;
     border-radius: 20px;
-    color: blue;
+    color: rgb(255, 0, 0);
 }
 
 section{
@@ -108,11 +125,10 @@ p{
 
 .para-2{
     text-align: center;
-    color:#db0a0a ;
+    color:#9d0faa ;
     font-size: 15px;
     margin-top: 18px;
 }
 
-.para-2 a{
-    color:#00d39e;
-}
+
+

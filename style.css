@@ -21,11 +21,12 @@
     font-size: 25px;
     font-weight: 800;
     color: rgb(53, 165, 25) !important;
+    font-family:'Times New Roman', Times, serif;
 }
 
 #navbarSupportedContent a{
     display: flex;
-    color: #000000;
+    color: #1098aa;
     border-bottom: 2px solid transparent;
     width: 5;
     justify-content: space-around;
@@ -42,10 +43,12 @@
 }
 .fa-info{
     margin: auto;
+    color: #000000;
 }
 
 #navbarSupportedContent a:hover{
     border-bottom: 2px solid rgb(10, 134, 31);
+
 }
 
 #navbarSupportedContent button{
@@ -93,19 +96,24 @@ form{
 /*****About*****/
 
 #About{
-    background: #fff;
-    color:  #f7e228d3;
+    background:seagreen;
+    color:  #0a1470e8;
+    
 }
 #About h1{
     font-weight: 800;
     font-size: 55px;
     color: #000000;
 }
+.img-fluid{
+    width: 600px;
+    height: 700px;
+}
 
 /***Product****/
 
 #product{
-    background:hsl(0, 100%, 99%);
+    background:seagreen;
 }
 #product h1{
     font-size: 50px;
@@ -113,10 +121,11 @@ form{
     font-weight: 800;
 }
 .card{
+    
     width: 300px;
     height: 250x;
     background: hsl(0, 9%, 69%) !important; 
-    border: none;
+    border: #000;;
     box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.753),inset 4px 4px 10px  rgb(85, 55, 55);
     border-radius: 20px !important;
     overflow: hidden;
@@ -125,6 +134,11 @@ form{
     margin: 20px 60px;
     transition: .2s;
 }
+.card-img-top{
+    width: 400px;
+    height: 400px;
+
+}
 .card:hover{
     box-shadow: inset 4px 4px 10px  rgba(0, 0, 0, 0.3),inset -4px -4px 10px  rgb(236, 236, 236);
     transition: 5s;
@@ -132,14 +146,16 @@ form{
 }
 
 /***contact page***/
-
+#contact{
+    background: seagreen;
+}
 #contact img{
     height: 100%;
     width: 85%;
 }
 .box{
     width: 80% impot !important;
-    background: #fff;
+    background: seagreen;
     margin-top: 10;
 }
 
