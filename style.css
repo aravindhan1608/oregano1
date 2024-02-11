@@ -41,9 +41,12 @@
 .fa-home{
     margin:auto;
 }
-.fa-info{
+
+.nav-item-cart{
     margin: auto;
-    color: #000000;
+    padding-right:  50px;
+    color: #000;
+
 }
 
 #navbarSupportedContent a:hover{
