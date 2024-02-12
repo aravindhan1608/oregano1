@@ -42,7 +42,11 @@
     margin:auto;
 }
 
+.fa-shopping-cart{
+    color: #000;
+    align-items: ;
 
+}
 #navbarSupportedContent a:hover{
     border-bottom: 2px solid rgb(10, 134, 31);
 
@@ -79,12 +83,10 @@ section{
     letter-spacing: 3px;
     border: #000000;
     text-shadow: 5px 5px  #000000;
+    
 }
-form{
-    width: 50%;
-    margin-bottom: 20px;
-    margin-top: 20px    ;
-}
+
+
 
  /* search */
 
@@ -183,7 +185,7 @@ form{
     box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.753),inset 4px 4px 10px  rgb(85, 55, 55);
     border-radius: 20px !important;
     overflow: hidden;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     margin: 20px 60px;
     transition: .2s;
