@@ -42,12 +42,6 @@
     margin:auto;
 }
 
-.nav-item-cart{
-    margin: auto;
-    padding-right:  50px;
-    color: #000;
-
-}
 
 #navbarSupportedContent a:hover{
     border-bottom: 2px solid rgb(10, 134, 31);
