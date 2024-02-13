@@ -131,28 +131,3 @@ p{
 }
 
 
-#kilanelli{
-    background-color: peru;
-    color: #000000;
-
-}
-
-#kilanelli h1{
-    font-weight: 800;
-    font-size: 55px;
-    color: #000000;
-}
-
-#kilanelli h4{
-    font-weight: 200;
-    font-size: 55px;
-    color: #000000;
-}
-
-.img-fluid{
-    width: 400px;
-    height: 500px;
-}
-
-
-
