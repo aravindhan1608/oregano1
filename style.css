@@ -44,11 +44,30 @@
 
 .fa-shopping-cart{
     color: #000;
-    width: 45px;
-    height: 45px;
-
     
 
+}
+
+.cart{
+    text-decoration: none;
+    
+}
+
+.cart i{
+    display: flex;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+  
+  
+    
+}
+.cart span {
+    z-index: 100;
+    right: 95px;
+    position: fixed;
+    font-size: 9px;
+    
 }
 #navbarSupportedContent a:hover{
     border-bottom: 2px solid rgb(10, 134, 31);

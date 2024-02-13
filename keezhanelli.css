@@ -1,5 +1,5 @@
 #kilanelli{
-    background-color: peru;
+    background-color: rgb(247, 247, 247);
     color: #000000;
     text-align: center;
 
@@ -11,8 +11,8 @@
     color: #000000;
 }
 .img-fluid{
-    width: 80px;
-    height: 200px;
+    width: 300px;
+    height: 100px; 
 }
 
 #kilanelli h4{
@@ -20,20 +20,28 @@
     font-size: 55px;
     color: #000000;
 }
+.row h5{
+    color:#0015ff;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    font-weight: 800;
 
-
-.img-fluid{
-    width: 300px;
-    height: 400px;
-    align-items: center;
 }
 
+
+
 .row p{
-    color: #fff;
+    color:brown;
     font-size: 16px;
     font-weight: 400;
-    line-height: 50px;
+    line-height: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    margin-left: 100px;
+   
 }
 
 .img-fluid01{
@@ -41,8 +49,82 @@
     height: 400px;
 }
 
-.img-fluid{
-    width: 200px;
-    height: 300px;
+.button{
+    width: 100px;
+    color:#fff;
+    background-color: #0015ff;
+    outline: transparent;
+    border:none ;
+    padding:none;
+    margin: 25px;
 }
 
+
+
+
+/* hari
+/**Product ****/
+/* #Product{
+    background-color: #f00d0d;
+  }
+  .product-page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh; 
+    width: 100vw; 
+    padding: 20px;
+  }
+  
+  .product-image {
+    flex: 0 0 auto; 
+    margin-right: 20px;
+  }
+  
+  .product-image img {
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px solid black;
+    box-shadow: 15px 20px 20px #00000048,
+                inset 4px 4px 10px #ffffff;
+    border-radius: 20px !important;
+  }
+  
+  .product-details {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-details h1.product-name {
+    font-size: 50px;
+    margin-bottom: 10px;
+    white-space: nowrap;  
+    color: #0015ff; 
+  }
+  
+  .price {
+    font-size: 50px;
+    color: #ff0000;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    color: #000000;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    align-self: center;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  } */ 
