@@ -9,16 +9,19 @@
     font-weight: 800;
     font-size: 55px;
     color: #000000;
+    margin-top: 50px;
 }
-.img-fluid{
-    width: 300px;
-    height: 100px; 
+.img1{
+    width: 200px;
+    height: 200px; 
+    margin: 30px;
 }
 
 #kilanelli h4{
     font-weight: 500;
     font-size: 55px;
     color: #000000;
+  
 }
 .row h5{
     color:#0015ff;
@@ -47,21 +50,25 @@
 .img-fluid01{
     width: 300px;
     height: 400px;
+    margin: 50px;
+    margin-left: 50px;
 }
 
 .button{
-    width: 100px;
+    width: 200px;
     color:#fff;
     background-color: #0015ff;
     outline: transparent;
     border:none ;
-    padding:none;
-    margin: 25px;
+    padding:10px;
+    
 }
 /* star rating */
 .container{
   color: rgb(0, 0, 0);
   font-size: x-large;  
+  text-align: left;
+  
 
 }
 
@@ -72,71 +79,13 @@
   color: gold;
 }
 
+.abcd{
+  text-align: left;
+  font-size:x-large;
+}
 
+.rate{
+  text-align: left;
+  font-size:x-large;
 
-/* hari
-/**Product ****/
-/* #Product{
-    background-color: #f00d0d;
-  }
-  .product-page {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100vh; 
-    width: 100vw; 
-    padding: 20px;
-  }
-  
-  .product-image {
-    flex: 0 0 auto; 
-    margin-right: 20px;
-  }
-  
-  .product-image img {
-    max-width: 100%;
-    max-height: 100%;
-    border: 2px solid black;
-    box-shadow: 15px 20px 20px #00000048,
-                inset 4px 4px 10px #ffffff;
-    border-radius: 20px !important;
-  }
-  
-  .product-details {
-    max-width: 400px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .product-details h1.product-name {
-    font-size: 50px;
-    margin-bottom: 10px;
-    white-space: nowrap;  
-    color: #0015ff; 
-  }
-  
-  .price {
-    font-size: 50px;
-    color: #ff0000;
-    margin-bottom: 10px;
-  }
-  
-  .description {
-    color: #000000;
-  }
-  
-  .button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
-    align-self: center;
-  }
-  
-  .button:hover {
-    background-color: #0056b3;
-  } */ 
+}
