@@ -68,13 +68,10 @@
   color: rgb(0, 0, 0);
   font-size: x-large;  
   text-align: left;
-  
-
+  margin-bottom: 10px;
 }
 
-.abcd{
-  font-size: 40px;
-}
+
 .checked{
   color: gold;
 }
@@ -82,10 +79,59 @@
 .abcd{
   text-align: left;
   font-size:x-large;
+  font-size: 40px;
 }
 
 .rate{
   text-align: left;
-  font-size:x-large;
+  font-size:25px;
+  letter-spacing: normal;
+}
 
+.click{
+  text-align: left;
+
+  
+
+}
+
+.wait{
+  text-align: left;
+  color: #333;
+  font-size: 15px;
+}
+/* footer */
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+}
+
+.footer h3 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  color: #666;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+  color: #333;
 }
