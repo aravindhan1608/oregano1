@@ -160,6 +160,7 @@ section{
     z-index: -1;
     fill: rgb(121, 133, 236);
     border: 1px solid rgb(91, 107, 255);
+    
   }
   
   .input:focus + .icon,.input:not(:placeholder-shown) + .icon {
@@ -344,21 +345,32 @@ form{
         position:sticky;
     }
     .card1{
-        padding: 60px 40px 50px 40px;
-        background:rgb(248, 104, 171)!important;
+        padding: 100px;
+        background:transparent;
         border-radius: 50px;
-        box-shadow: none;
-        width: 400px;
-        height: 400px;
+        
+        border: 2px solid #000;
+
+        width: 360px;
+    height: 500px;
+    margin:auto;
+    background-color: transparent;
+    outline:auto;
+    margin-top: 10px;
+    margin-bottom: 5px;     
     }
     #name{
-        border:#fff;
+        border:#fcfcfc;
         background:none;
-        border-bottom: 1px solid #fff;
+        border-bottom: 2px solid #faf5f5;
         padding: 6%;
         margin-bottom: 20px;
         color: #ffffff;
         
+    }
+
+    .loginh4{
+        text-align: center;
     }
     #button{
 
@@ -382,7 +394,7 @@ form{
     /* footer */
 
 .footer {
-    background-color: #f8f9fa;
+    background-color: #e6e5e5;
     padding: 40px 0;
   }
   
@@ -392,6 +404,9 @@ form{
     margin-bottom: 20px;
   }
   
+  .container{
+    line-height: 1;
+  }
   .footer p {
     color: #666;
   }
