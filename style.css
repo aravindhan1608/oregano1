@@ -97,7 +97,7 @@ section{
 /*****home****/
 
 #Home{
-    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)), url(img/no16.jpg    );
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)), url(img/wallpaperflare.com_wallpaper.jpg);
     background-size: cover;
     background-position: center;
     flex-direction: column;
@@ -334,63 +334,61 @@ form{
                                 /***login page**/
 
 #login{
-    background-image:url(img/no13.avif) ;
+    background-image: url(img/pexels-photomix-company-105028.jpg);
     background-size: cover;
     background-position: center;
 }
-
-    .container{
-        margin:auto;
-        width: 60%;
-        position:sticky;
+    #login body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-image:url(img/no16.jpg); /* Replace 'background-image.jpg' with your image path */
+        background-size: cover;
+        background-position: center;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    .card1{
-        padding: 100px;
-        background:transparent;
-        border-radius: 50px;
-        border: 2px solid #000;
-        width: 360px;
-        height: 500px;
-        margin:auto;
-        background-color: transparent;
-        outline:auto;
-        margin-top: 10px;
-        margin-bottom: 5px;     
-    }
-    #name{
-        border:#000000;
-        background:none;
-        border-bottom: 2px solid #faf5f5;
-        padding: 6%;
-        margin-bottom: 20px;
-        color: #fafafa;
+    .login-container {
+        background-color: rgba(255, 255, 255, 0.5); /* Adjust the opacity by changing the last value */
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        width: 500px;
+        height: 400px;
+        align-items: center;
         
     }
-#login input{
-    color: white;
-}
-
-    .loginh4{
+    .login-container h2 {
         text-align: center;
     }
-    #button{
-
-        border-radius: 20px;
-        padding: 10px 20px ;
-        background: #1d3f16;
-        color: #fff;
-        margin-top: 20px;
-        border: none;
-        outline: none;
-       
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
     }
-    #checked{
-        text-align: left;
+    .login-container input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    .login-container input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+    .checkbox{
+        text-align: center;
         
     }
-    a{
-        font-size: 13px;
-    }
+    
 
     /* footer */
 
