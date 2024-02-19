@@ -263,14 +263,19 @@ section{
 /***Product****/
 
 #product{
-    background:seagreen;
+    background:rgb(202, 214, 208);
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(260px,auto));
-    gap: 2rem;
+    gap: 5rem;
 }
 #product h1{
     font-size: 50px;
     letter-spacing: 2px;
+    font-weight: 800;
+    -webkit-text-stroke: 2px #faf7f7;
+    position: relative;
+    cursor: pointer;
+    color: #000;
     font-weight: 800;
 }
 .card{
@@ -284,7 +289,7 @@ section{
     overflow: hidden;
     justify-content:center;
     align-items: center;
-    margin: 20px 60px;
+    margin: 40px 60px;
     transition: .2s;
 }
 .card-img-top{
